@@ -12,9 +12,9 @@
 #include <string.h>
 #include <inttypes.h>
 
-#if defined(__arm__) && defined(__APCS_32__)
-#define EXTERN_SHA256
-#endif
+//#if defined(__arm__) && defined(__APCS_32__)
+//#define EXTERN_SHA256
+//#endif
 
 typedef uint64_t u64;
 typedef uint32_t u32;
